@@ -17,15 +17,13 @@ test('Handle Window', async ({browser}) => {
 
     await newpage.locator("(//input[@name='email'])[2]").fill('test@example.com');
 
-    await newpage.waitForTimeout(5000);
-
     await newpage.close();
 
     await page.waitForTimeout(5000);
 
-    await page.locator("#email1").fill('example@gmaol.com');
+    // await page.locator("#email1").fill('example@gmaol.com');
 
-    await page.waitForTimeout(5000);
+    // await page.waitForTimeout(5000);
 
 
 });

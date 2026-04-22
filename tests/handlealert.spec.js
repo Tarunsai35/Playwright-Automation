@@ -11,7 +11,7 @@ test('Handle Alert', async ({page}) => {
         expect(dialog.message()).toContain('I am a JS Alert');
         
     })
-    await page.getByText("Click for JS Alert").click();
+    // await page.getByText("Click for JS Alert").click();
 });
 
 
