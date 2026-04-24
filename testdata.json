@@ -1,0 +1,17 @@
+{
+    "username": "test131@gmail.com",
+    "password": "test@123",
+    "name": "Test User",
+    "interests": [
+        "sql",
+        "js",
+        "aws"
+    ],
+    "gender": "male",
+    "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "status": "Andhra Pradesh",
+        "zip": "12345"
+    }
+}
